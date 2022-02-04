@@ -21,6 +21,6 @@ pip3 install <installer>.whl
 from HELR import HELR
 ...
 my_private_inferece = HELR(weights, bias)
-result = my_private_inference(sample)
+result = my_private_inference.predict(sample)
 ...
 ```
